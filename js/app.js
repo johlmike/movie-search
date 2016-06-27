@@ -43,9 +43,9 @@ const mvSearch = (function() {
                     $("#movies").append(html);
                 }
                 //Hide loading gif
-                $('.loading_img').hide();
                 $("#movies li").on("click", showDetail);
             }
+            $('.loading_img').hide();
         });
     }
 
